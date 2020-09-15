@@ -24,8 +24,7 @@ def update_status
   # Code your solution here:
 
 epic_tragedy[:montague][:hero][:status] = "dead"
-
-
+epic_tragedy[:capulet][:heroine][:status] = "dead"
 
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
@@ -40,6 +39,11 @@ def add_characters
          :hero_friends => [
             {name: "Benvolio", age: "17", attitude: "worried"},
             {name: "Mercutio", age: "18", attitude: "hot-headed"}
+         ]
+         :additional_characters => [
+           {name: "Prince Escalus",
+           
+           }
          ]
       },
       :capulet => {
